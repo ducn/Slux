@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "Slux"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Slux."
+  s.summary          = "simple, clean, robustness framework for iOS app."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+Slux is framework to help building apps with simple, clean and unidirectional data flow style
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Slux"
+  s.homepage         = "https://github.com/ducn/Slux"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "ducn" => "ngoduc.smpt@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Slux.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/ducn/Slux.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/ducn10'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
