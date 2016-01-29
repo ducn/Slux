@@ -1,0 +1,6 @@
+framework module Pods_Slux_Example {
+  umbrella header "Pods-Slux_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Slux {
+  umbrella header "Slux-umbrella.h"
+
+  export *
+  module * { export * }
+}
