@@ -46,6 +46,7 @@ class DispatcherTestes: QuickSpec{
             }
         }
         
+        
         describe("wait for") { () -> Void in
             let dispatcher = Dispatcher()
             it("Should wait for other actions"){

@@ -20,6 +20,7 @@ public class Dispatcher{
     
     public init(){}
     
+    
     //MARK:- Core
     public func register(callback:ActionCallback)->DispatchToken{
         let token = "DISPATCH_LISTENER_\(++_listenerId)"
