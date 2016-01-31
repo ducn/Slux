@@ -56,5 +56,5 @@ public class EventEmitter {
     }
     
     private var _listeners = [EventType:[EventListener]]()
- 
+    
 }

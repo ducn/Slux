@@ -12,7 +12,7 @@ public typealias DispatchToken = String
 public typealias ActionCallback = Action -> Void
 
 public class Dispatcher{
-
+    
     private var _listeners = [DispatchToken:DispatchListener]()
     private var _listenerId:Int = 0
     private var _isDispatching:Bool = false
@@ -38,7 +38,7 @@ public class Dispatcher{
         }
         startDispatching(action)
         for token in _listeners.keys{
-           invokeCallback(_listeners[token])
+            invokeCallback(_listeners[token])
         }
         stopDispatching()
     }
