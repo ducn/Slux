@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Slux
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

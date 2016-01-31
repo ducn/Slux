@@ -10,6 +10,7 @@
 		00B5C60A34D0AEA997855570A1C0E171 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E873F992797EF8E974EAF641CB4FD72 /* ExampleGroup.swift */; };
 		02BF9988CC94A01E7CB6049694390020 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 3583D7D5C6884B5811739712676819ED /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02DF5BD2281BA10105A447F95FCF8CF3 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51F90687F1FD2CD6E2CDF0E3F62C27 /* BeLogical.swift */; };
+		03EAC3C7F20DC38103700B19D0DD768F /* Slux-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 617156F8972FBB2028F1FD3D0E9E105F /* Slux-dummy.m */; };
 		0492354DA7EF0C9068F7B4E8F74001B0 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E97EFA39EE5B8E0791218121044BD /* FailureMessage.swift */; };
 		0A6E71555F55082003A3DB2B03CA85D2 /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130A59DDB32BBDCFB4ABB11FA368C7F8 /* AsyncMatcherWrapper.swift */; };
 		0F49254A4C560DD4696936F6080756DC /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A7503AAF3BA8144C1103305BE6E6A9 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,7 +39,6 @@
 		512DFAE728521F02AF225F0082195DCC /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C7B43832CED29D843ABAD9BFBF89CF /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E8FA7292292532AC62D928269FD37A /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB4C9E009BF21741AB0A3E52D7E8655 /* SwiftSupport.swift */; };
-		579D271CF8D32D0F7A726F2E9942F043 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD00EFC5551B6C4081FDF1CD9E69852 /* ReplaceMe.swift */; };
 		5841334734BF2AAFC95E41C1BCE99E35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F567A0F84D52EF356BEDCB9F4C9AE7 /* Foundation.framework */; };
 		58DE63B2FF3954F1467A5B41D8FF3932 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899697610CD89ABF71B0C316A2B370ED /* XCTest.framework */; };
 		58EBA2C1A43283FB2188AB1FB592D32B /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CEBA0F9875766C6578D56EC1878D57 /* DSL.swift */; };
@@ -60,7 +60,6 @@
 		7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF5FFAEFCCB6ED3B214EB7D8A09278F /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BFD25B1BB1116D8AC47E2C3874C5B76 /* ObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29796A65251B88A8DADB8498350E0A1C /* ObjCMatcher.swift */; };
 		7DA9FF8513AA48310B15A0744A541818 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BDADBB262C5FFFF97834DD116EAE46 /* SourceLocation.swift */; };
-		7EAA97EC63C12C0C301F7F4AA4385EE4 /* Slux-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 617156F8972FBB2028F1FD3D0E9E105F /* Slux-dummy.m */; };
 		821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DE002C91FBB91E22ACE186DB505955BE /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		831D33A4C5C5BBC1EC158D9A236C61D7 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32771F017408506D7418E4ABDD594BA9 /* NimbleXCTestHandler.swift */; };
 		83AFA7206FCA62373C71D0EBA9A7CAC7 /* Slux-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5348E4F3CCE93F91B832A6EBD443CF /* Slux-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -90,6 +89,8 @@
 		BCB53F24DCADF12601B8BA90AE3190AE /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500663E16F1B37B02D2F844A81685E0 /* BeLessThan.swift */; };
 		C150157922BAEB1F93635508FB59E618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F567A0F84D52EF356BEDCB9F4C9AE7 /* Foundation.framework */; };
 		C322EEEEAE1C91BAF10A82B6FB89BCE5 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4030C33005C7A4BF69E989BB2F4A8 /* Closures.swift */; };
+		C37B4F3044EC43D1A2997D6B32F0F3C3 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = A819CEA5918FD72F98BB1CFFCA44CDC0 /* Action.swift */; };
+		C3EEDBB0B606A162BF94FB13BA51D8C3 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D0DC474F9EC5EC700133AA6F5BD1A5 /* Store.swift */; };
 		C546C1A982C6ACC4F76155B194886766 /* Pods-Slux_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D416EF3643B930117E63665BE4A25F /* Pods-Slux_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C63AB521EA514A811A167E507C0CF9AD /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA52B39A5AD52E8313E98B6A7A797F /* Expression.swift */; };
 		C9AC658F3FCB67B50E96313C2687B33D /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0990E92CE6C898CE1BE2E493E8988F /* MatcherProtocols.swift */; };
@@ -99,6 +100,7 @@
 		CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5166BFC1F06A657509C298DE92FCE38A /* QuartzCore.framework */; };
 		CFFC1EE26535977AB3FF294623A3DEEA /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A65D138243B96696366DBB7E25DDE9 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D209C8E721013BA174ABB3A173CA45C4 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA0C5AB03A316855624ED846F641376 /* Configuration.swift */; };
+		D273405BF21555344CD674D67BACD69F /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8406F2D9FA5F67907B014093FC44D /* Dispatcher.swift */; };
 		D34B714D86F345A96915410A35825839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F567A0F84D52EF356BEDCB9F4C9AE7 /* Foundation.framework */; };
 		D429691F39B4C30A8993360FB8A3E334 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA51DB996CB38419B5CA02CB769A8F6 /* AllPass.swift */; };
 		D4DD508CF9844D4A1F92205CCB151D4E /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B474439E705D4331B6BF95FACF8CC /* Quick-dummy.m */; };
@@ -112,6 +114,7 @@
 		E36C5201AE7F1CBB25F9D2E7CBFC3C20 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB318CBB3A1FAC64DA8D4F403127956C /* Match.swift */; };
 		E6E7B15FAD6C56681511813DB2666478 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469EEA828792C10E022D4BDE6B3CF9F5 /* AssertionRecorder.swift */; };
 		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = E1957A6F490F75CF4F5E65AE6F95B60D /* UIImage+Snapshot.m */; };
+		EE29F81C6CDD961B38CC9330D464BA84 /* EventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1014106C1480F9A00A1F2EE2F605BE1 /* EventEmitter.swift */; };
 		EE75BFF7CEB96127A821936D107A0183 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0CE398ED47A90A49FD1D48ED4788C3 /* QCKDSL.m */; };
 		F10FD3129985704FA1610F84FB98EDF5 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CF27DB4E86CF523DBB7718DD1F8A5D /* Stringers.swift */; };
 		F1D4A8A1FC68EFA7F45945908D70A352 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D7137A6D7EFBB6E057D6D4955B5B90 /* BeNil.swift */; };
@@ -249,6 +252,7 @@
 		5A801520C3A566C75CF622088B068D55 /* Pods-Slux_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Slux_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5AC13ABDCDD4DE19AAD5085D05125936 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
 		5AD55F3974939097556240403DEE2DFF /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF8406F2D9FA5F67907B014093FC44D /* Dispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
 		6027FD59CA8A52C6183C8B1E925E4438 /* Pods-Slux_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Slux_Example.release.xcconfig"; sourceTree = "<group>"; };
 		617156F8972FBB2028F1FD3D0E9E105F /* Slux-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Slux-dummy.m"; sourceTree = "<group>"; };
 		6180E032770F8A54A2E991FB0FAB3227 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Quick/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
@@ -288,9 +292,10 @@
 		9C61FB5D5A77F0F466C68BEF9983217F /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Quick/Example.swift; sourceTree = "<group>"; };
 		9DF5FFAEFCCB6ED3B214EB7D8A09278F /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		9EEC4AE3D10F56B3279410A932A7BA59 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Quick/QuickSpec.h; sourceTree = "<group>"; };
-		9FD00EFC5551B6C4081FDF1CD9E69852 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		A14E97EFA39EE5B8E0791218121044BD /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Nimble/FailureMessage.swift; sourceTree = "<group>"; };
+		A819CEA5918FD72F98BB1CFFCA44CDC0 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		A953496E79ED54994AA09F363925B3E0 /* Slux-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Slux-prefix.pch"; sourceTree = "<group>"; };
+		A9D0DC474F9EC5EC700133AA6F5BD1A5 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		AA329B2CFA87E526DA6452FDD6BB26BC /* Poll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poll.swift; path = Nimble/Utils/Poll.swift; sourceTree = "<group>"; };
 		ACB4C9E009BF21741AB0A3E52D7E8655 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		AFE47970A7AC09344E95FFCDD3B7C88C /* ObjCExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCExpectation.swift; path = Nimble/ObjCExpectation.swift; sourceTree = "<group>"; };
@@ -334,6 +339,7 @@
 		EAADA594E02A3BC818B807DE5D9140FE /* Pods-Slux_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Slux_Example-resources.sh"; sourceTree = "<group>"; };
 		EAD96117C39A7B5100135D5FCBDEBAFE /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		EC47FDEAA5605B12A3D06E60B32422B4 /* Pods-Slux_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Slux_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1014106C1480F9A00A1F2EE2F605BE1 /* EventEmitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EventEmitter.swift; sourceTree = "<group>"; };
 		F308468FBE48ADD4AC7CC66E7EC65BDD /* Slux.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Slux.xcconfig; sourceTree = "<group>"; };
 		F4A7503AAF3BA8144C1103305BE6E6A9 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
 		F6AA52B39A5AD52E8313E98B6A7A797F /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Nimble/Expression.swift; sourceTree = "<group>"; };
@@ -487,14 +493,6 @@
 			path = "../Target Support Files/Nimble-Snapshots";
 			sourceTree = "<group>";
 		};
-		13597EB8D6A4FE97563067286C919534 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9FD00EFC5551B6C4081FDF1CD9E69852 /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		1A6BACE6EE2AC54AE6A5317C14813F1B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,6 +502,17 @@
 				899697610CD89ABF71B0C316A2B370ED /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		2C598D18E77A28AE6F024FDCD371E397 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A819CEA5918FD72F98BB1CFFCA44CDC0 /* Action.swift */,
+				5AF8406F2D9FA5F67907B014093FC44D /* Dispatcher.swift */,
+				F1014106C1480F9A00A1F2EE2F605BE1 /* EventEmitter.swift */,
+				A9D0DC474F9EC5EC700133AA6F5BD1A5 /* Store.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		4B657F6CE60E21E7877B6BBB31480B24 /* Support Files */ = {
@@ -542,6 +551,14 @@
 				8D9F8E39CDA799CD865EE7059E340C34 /* Slux.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		629F94570DF996C6C44052E157D8D361 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2C598D18E77A28AE6F024FDCD371E397 /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		702052E198E1501ED130905D9C519DD8 /* Support Files */ = {
@@ -640,7 +657,7 @@
 		A85FAC276FDB0B1E5A88458BA60CC912 /* Slux */ = {
 			isa = PBXGroup;
 			children = (
-				AC57256A7D72943D0549D1C58E7E5F1D /* Pod */,
+				629F94570DF996C6C44052E157D8D361 /* Pod */,
 				702052E198E1501ED130905D9C519DD8 /* Support Files */,
 			);
 			name = Slux;
@@ -658,14 +675,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		AC57256A7D72943D0549D1C58E7E5F1D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				13597EB8D6A4FE97563067286C919534 /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		AF3FA1139EC69E065B1C1095C25B2636 /* Frameworks */ = {
@@ -877,7 +886,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB1DFFF9DCA1E49681CF4C902256DB81 /* Build configuration list for PBXNativeTarget "Slux" */;
 			buildPhases = (
-				F2DB9C2D6A298F3574DFF6C60A7D4DCA /* Sources */,
+				70F47B3531F9568E6F0E4E6E9A6DA706 /* Sources */,
 				8DDC1562C97E68626C6F6BDB825BC922 /* Frameworks */,
 				6112BFBB9EB5931F391E3FEA04B4815C /* Resources */,
 				7D1D9D8FE1A28E03EEA58DDA61B5CF68 /* Headers */,
@@ -1075,6 +1084,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70F47B3531F9568E6F0E4E6E9A6DA706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37B4F3044EC43D1A2997D6B32F0F3C3 /* Action.swift in Sources */,
+				D273405BF21555344CD674D67BACD69F /* Dispatcher.swift in Sources */,
+				EE29F81C6CDD961B38CC9330D464BA84 /* EventEmitter.swift in Sources */,
+				03EAC3C7F20DC38103700B19D0DD768F /* Slux-dummy.m in Sources */,
+				C3EEDBB0B606A162BF94FB13BA51D8C3 /* Store.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99DF4A0CA70F50C23A2C7D75D82A4AF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1152,15 +1173,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9712680B816622283B3AEB47536FD1B9 /* Pods-Slux_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2DB9C2D6A298F3574DFF6C60A7D4DCA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				579D271CF8D32D0F7A726F2E9942F043 /* ReplaceMe.swift in Sources */,
-				7EAA97EC63C12C0C301F7F4AA4385EE4 /* Slux-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

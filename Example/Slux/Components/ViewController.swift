@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Slux
 
 class ViewController: UIViewController {
 

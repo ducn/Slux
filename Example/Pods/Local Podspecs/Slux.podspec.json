@@ -1,15 +1,15 @@
 {
   "name": "Slux",
   "version": "0.1.0",
-  "summary": "A short description of Slux.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Slux",
+  "summary": "simple, clean, robustness framework for iOS app.",
+  "description": "Slux is framework to help building apps with simple, clean and unidirectional data flow style",
+  "homepage": "https://github.com/ducn/Slux",
   "license": "MIT",
   "authors": {
     "ducn": "ngoduc.smpt@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Slux.git",
+    "git": "https://github.com/ducn/Slux.git",
     "tag": "0.1.0"
   },
   "platforms": {
