@@ -49,7 +49,9 @@ public class EventEmitter {
     }
     
     private func getListenersForEvent(event:EventType)->[EventListener]{
-        if let listeners = _listeners[event] { return listeners}
+        if let listeners = _listeners[event] {
+            return listeners
+        }
         else {return [EventListener]()}
     }
     

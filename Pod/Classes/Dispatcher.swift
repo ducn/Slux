@@ -33,7 +33,9 @@ public class Dispatcher{
     }
     
     public func dispatch(action:Action){
-        guard _isDispatching == false else {return}
+        guard _isDispatching == false else {
+            return
+        }
         startDispatching(action)
         for token in _listeners.keys{
            invokeCallback(_listeners[token])
@@ -42,7 +44,9 @@ public class Dispatcher{
     }
     
     public func waitFor(tokens:[DispatchToken]){
-        guard _isDispatching == true else {return}
+        guard _isDispatching == true else {
+            return
+        }
         for token in tokens{
             if _listeners[token]?.status == .Pending ||
                 _listeners[token]?.status == .Handled{
@@ -66,9 +70,15 @@ public class Dispatcher{
     }
     
     private func invokeCallback(listener:DispatchListener?){
-        guard let action = _pendingAction else {return}
-        guard let l = listener else {return}
-        guard l.status == .Ready else {return}
+        guard let action = _pendingAction else {
+            return
+        }
+        guard let l = listener else {
+            return
+        }
+        guard l.status == .Ready else {
+            return
+        }
         l.status = .Pending
         l.callback(action)
         l.status = .Handled
