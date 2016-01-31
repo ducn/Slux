@@ -1511,10 +1511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F308468FBE48ADD4AC7CC66E7EC65BDD /* Slux.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					i386,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1685,10 +1682,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F308468FBE48ADD4AC7CC66E7EC65BDD /* Slux.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					i386,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
