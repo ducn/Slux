@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F2BBB36080349B8A17B1AACD'
+               BlueprintIdentifier = '9522119F66077D4C500058F3'
                BlueprintName = 'Slux'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Slux.framework'>
